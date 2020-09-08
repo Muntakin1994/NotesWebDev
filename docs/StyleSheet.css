@@ -1,0 +1,52 @@
+﻿html{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    margin: 6px;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    color: yellow;
+    animation-name: pulse;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse{
+    0%{
+        color: yellow;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: yellow;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: yellow;
+    }
+}
