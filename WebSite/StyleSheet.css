@@ -54,7 +54,9 @@ span{
 
 @media (min-width: 1281px) {
 
-    //CSS
+    html {
+        font-size: 26px;
+    }
 }
 
 /* 
@@ -64,7 +66,9 @@ span{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-    //CSS
+    html {
+        font-size: 26px;
+    }
 }
 
 /* 
@@ -74,7 +78,9 @@ span{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    //CSS
+    html {
+        font-size: 26px;
+    }
 }
 
 /* 
