@@ -82,10 +82,10 @@ span{
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     html {
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 
@@ -97,7 +97,7 @@ span{
 @media (min-width: 481px) and (max-width: 767px) {
 
     html {
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 
@@ -109,6 +109,6 @@ span{
 @media (min-width: 320px) and (max-width: 480px) {
 
     html{
-        font-size: 32px;
+        font-size: 26px;
     }
 }
