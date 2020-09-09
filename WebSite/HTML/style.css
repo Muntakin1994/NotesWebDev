@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+html{
     height: 100%;
     font-size: 16px;
+}
+
+body{
+    min-height: 100%;
 }
 
 body{
@@ -14,7 +18,7 @@ body{
 
 .left,
 .right{
-    height: 100%;
+    min-height: 100%;
 }
 
 .left{
@@ -57,6 +61,7 @@ header{
 
 section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
 }
