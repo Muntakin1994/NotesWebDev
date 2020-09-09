@@ -22,7 +22,7 @@ body{
 }
 
 .left{
-    flex-basis: 350px;
+    flex-basis: 18%;
     background-color: black;
     color: white;
     text-align: left;
@@ -79,7 +79,32 @@ article{
 }
 
 .article{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
+}
+
+@media only screen and (max-width: 1080px){
+    .left{
+        flex-basis: 40%;
+    }
+    article {
+        min-height: 450px;
+        width: 650px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+        background-color: lightslategray;
+        padding: 20px 50px;
+        margin: 20px;
+    }
+    .article {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: white;
+    }
+    header{
+        font-size: 1.5rem;
+    }
 }
