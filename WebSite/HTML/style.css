@@ -1,0 +1,28 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+}
+
+.left,
+.right{
+    height: 100%;
+}
+
+.left{
+    flex-basis: 300px;
+    background-color: black;
+    color: white;
+}
+
+.right{
+    background-color: aqua;
+    flex-basis: 100%;
+}
