@@ -25,7 +25,6 @@ body{
 }
 
 .right{
-    background-color: aqua;
     flex-basis: 100%;
 }
 
@@ -37,6 +36,45 @@ body{
 }
 
 .left ul li:hover{
-    cursor: pointer;
     font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.box{
+    margin-top: 20px;
+}
+
+header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+article{
+    min-height: 200px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    padding: 20px 50px;
+    margin: 20px;
+}
+
+.article{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
