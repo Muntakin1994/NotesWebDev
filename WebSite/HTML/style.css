@@ -5,6 +5,7 @@
 }
 html,body{
     height: 100%;
+    font-size: 16px;
 }
 
 body{
@@ -17,12 +18,25 @@ body{
 }
 
 .left{
-    flex-basis: 300px;
+    flex-basis: 350px;
     background-color: black;
     color: white;
+    text-align: left;
 }
 
 .right{
     background-color: aqua;
     flex-basis: 100%;
+}
+
+.left ul li{
+    font-size: 1.5rem;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    list-style: none;
+}
+
+.left ul li:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
