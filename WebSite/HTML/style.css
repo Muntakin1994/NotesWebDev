@@ -53,10 +53,7 @@ a{
 }
 
 header{
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
-    border-bottom: 2px solid red;
 }
 
 section{
@@ -100,11 +97,14 @@ article{
         margin: 20px;
     }
     .article {
-        font-size: 3.5rem;
+        font-size: 2rem;
         font-weight: bold;
         color: white;
     }
     header{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .left ul li {
+        font-size: 2rem;
     }
 }
