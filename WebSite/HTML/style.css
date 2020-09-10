@@ -18,12 +18,27 @@ body{
     display: flex;
 }
 
+.menu img{
+	position: relative;
+	height: 60px;
+	width: 60px;
+	border-radius: 80%;
+}
+
+.menu img:hover {
+    cursor: pointer;
+	height: 58px;
+	width: 58px;
+ }
+
+
 .left,
 .right{
     min-height: 100%;
 }
 
 .left{
+	display: none;
     flex-basis: 18%;
     background-color: black;
     color: white;
@@ -32,6 +47,7 @@ body{
 
 .right{
     flex-basis: 100%;
+    margin-top: 2%;
 }
 
 .left ul li{
@@ -63,6 +79,8 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 article{
